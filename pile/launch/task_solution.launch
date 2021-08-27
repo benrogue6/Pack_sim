@@ -1,0 +1,9 @@
+<launch>
+
+  <node name="black_lane_track" pkg="pile" type="side_walk.py"  output="screen"></node>
+
+  <node name="traffic_green" pkg="pile" type="green.py"  output="screen"></node>
+
+  <node name="red" pkg="pile" type="red.py"  output="screen"></node>
+
+</launch>
